@@ -1,0 +1,14 @@
+<aside class="artworklist">
+	<h1>Art work dispaly</h1>
+		<p> While you attend the conference, head over to our gallery where you can check out gallery </p>
+		<div class="photogrid clearfix">
+		<% if (artwork.length>0) { %>
+			
+			<% for(i=0;i<artwork.length;i++) { %>
+				
+				<img src="/images/artwork/<%= artwork[i]%>" alt=" artwork<%= i %>">
+
+			<% } %>	
+		<% } %>
+		</div>
+</aside>

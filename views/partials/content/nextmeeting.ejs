@@ -1,0 +1,13 @@
+<aside class="nextmeeting">
+	<h1>Next Meeting</h1>
+	
+	<div class="photogrid">
+	<img class="pull-left" src=" <%= appdata.meeting.where.img %>" alt="Hotel image">
+	</div>
+	<p>	
+	Our next meeting will be on
+	<%= appdata.meeting.date %>, <%= appdata.meeting.time %> at 
+	<%= appdata.meeting.where.name %> <%= appdata.meeting.where.address %> 
+	</p>
+	<p><% include socialmedia.ejs %></p>
+</aside>

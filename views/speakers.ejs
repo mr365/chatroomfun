@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include partials/template/head.ejs %>
+  </head>
+  <body class="<%= page %>">
+  
+	<section class= "container">
+		<div class= "row">
+		 
+			<% include partials/template/header.ejs %>
+			
+			<section class="main col-md-8 col-xs-12">
+				<% include partials/content/speakerslist.ejs %>
+			</section>
+			<section class="sidebar col-md-4 col-xs-6">
+				<% include partials/content/nextmeeting.ejs %>
+				<% include partials/content/artworklist.ejs %>
+			</section>
+
+		 </div><!--- row-->
+		
+	</section><!-- container -->
+    <% include partials/template/footer.ejs %>
+    <% include partials/template/jsdefault.ejs %>
+  </body>
+</html>

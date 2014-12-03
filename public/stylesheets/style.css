@@ -1,0 +1,16 @@
+h1,h2,h3,h4,h5,h6{font-family:Bree Serif;color:#424242}body{background:#bdbdbd;margin-top:30px}p{font-family:Merriweather;font-size:1.1em;line-height:1.4em;color:#607d8b;padding:0 2%}.container{background:#eceff1;-webkit-border-radius:60px 0 0 0;-moz-border-radius:60px 0 0 0;border-radius:60px 0 0 0}@media (max-width:767px){.container{background:#eceff1;-webkit-border-radius:60px 0 0 0;-moz-border-radius:60px 0 0 0;border-radius:60px 0 0 0}}.main{background:#eceff1}.navbar{margin-bottom:0;border-right:none;border-left:none;border-radius:0}@media (max-width:767px){.navbar{background:0 0;border:none}.navbar button{background:#607d8b;margin-align:left}.navbar ul,.navbar li{background:#9e9e9e}.navbar li:hover{background:#424242;color:#f5f5f5}.navbar li.dropdown:hover{margin-bottom:3%}}.carousel{margin-bottom:0;-webkit-border-radius:20px 20px;-moz-border-radius:20px 20px;border-radius:20px 20px}.main>article{margin:0 5%}.sidebar>aside{padding-right:5%}@media (max-width:767px){.sidebar>aside{padding-left:5%}}aside h2{font-size:1.8em;color:#e91e63}#branding img{margin:0 0 5px 15px;max-width:400px}@media (max-width:767){#branding img{margin:0 0 5px 15px;width:90%}}.accordion-heading a{color:#e91e63}aboutthevenue artcle{margin:0;padding:0}aboutthevenue h2{padding:0;padding-bottom:0}aboutthevenue h3{color:#e91e63;padding:0;margin:0;font-size:1.5em}.nav-tabs li a{color:#e91e63;font-weight:700}.nav-tabs li.a active{background:0 0}.nav-tabs li a:hover{background:#9e9e9e;color:#f5f5f5}.tab-content p{padding:0;padding-top:10px}.photogrid img{width:96px;margin:0 5px 5px 0;cursor:pointer}@media (max-width:990px){.photogrid img{width:64px}}.artistinfo article,.artistinfo p,.artistinfo h1{paddind:0 2%}footer ul.breadcrumb{background:#424242;margin:0 auto;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}footer ul.breadcrumb li{text-shadow:none}footer ul.breadcrumb li a{color:#fff}.scrollspy .nav{background:#bbdefb;margin-top:20px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.scrollspy .nav ul li{background:#00bcd4;padding:0;margin:0;border-bottom:1px solid #858585;border-btop:1px solid #b8b8b8}@media (max-width:979){.scrollspy .nav ul li{width:15%;max-width:120px}}@media (min-width:980){.scrollspy .nav ul li{width:13%;max-width:120px}}.scrollspy .nav ul li a{color:#f5f5f5;text-indent:-20px;padding-left:30px}.scrollspy .nav ul li a:hover{background:#f5f5f5;color:#424242;-webkit-border-radius:0 10px;-moz-border-radius:0 10px;border-radius:0 10px}.scrollspy .nav li.active{background:#5baff5;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.scrollspy .nav li :first-child{border-top:none}.scrollspy .nav li :last-child{border-bottom:none}
+.socialmediaicons li{ list-style: none; display:inline;};
+.layout{
+	max-width: 61em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-left: auto;
+	margin-right: auto;
+};
+
+
+
+.ArtistList .artist-group {
+	
+
+};
