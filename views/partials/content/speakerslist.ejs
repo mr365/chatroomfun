@@ -1,11 +1,11 @@
 <article class="speakerslist">
 	<section class="layout">
-		<div class="component photogrid clearfix" style="width:100%">
+		<div class="component photogrid clearfix">
 			<% artists.forEach (function (item){ %>
-				<div class="artist-group" style="width:25%;float:left">
-					<h3 style="width:100%"><span style="width:100%"><%= item.title %></span></h3> 
+				<div class="artist-group clearfix">
+					<h3 ><span ><%= item.title %></span></h3> 
 					<span class="small">
-						With<a href="/speakers/<%= item.shortname %>" style="width:100%"><%= item.name%>
+						With<a href="/speakers/<%= item.shortname %>" ><%= item.name%>
 					</a>
 					</span>
 					<p><a href="/speakers/<%= item.shortname %>">
