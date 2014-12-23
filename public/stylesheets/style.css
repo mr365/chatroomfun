@@ -8,7 +8,9 @@ h1,h2,h3,h4,h5,h6{font-family:Bree Serif;color:#424242}body{background:#bdbdbd;m
 	margin-right: auto;
 };*/
 
+.container {
 
+};
 
 
 .ArtistList .artist-group  h3,span,a, .class{
@@ -18,8 +20,13 @@ h1,h2,h3,h4,h5,h6{font-family:Bree Serif;color:#424242}body{background:#bdbdbd;m
 
 };
 
-.home .artist-group{
+.home .artist-group img{
 	
 
 
+};
+
+.speakerlist{
+padding-left: 10px;
+padding-right: 10px;
 };

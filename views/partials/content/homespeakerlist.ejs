@@ -1,0 +1,29 @@
+<article class="homespeakerslist">
+	<section class="layout">
+		<div class="component photogrid clearfix">
+			<% artists.forEach (function (item){ %>
+				<div class="artist-group clearfix col-md-3">
+					<h3 ><span ><%= item.title %></span></h3> 
+					<span class="small">
+						With<a href="/speakers/<%= item.shortname %>" ><%= item.name%>
+					</a>
+					</span>
+					<p><a href="/speakers/<%= item.shortname %>">
+					<img src="/images/artists/<%= item.shortname%>_tn.jpg" class="pull-left img-circle" alt="<%= item.name %>"></a>
+
+						<% if(page!='home') { %>
+							<%if (page==='ArtistList') {%>
+								<%=item.summary%>
+							<%} else{%>
+								<%=item.bio%>
+								<%}%>
+						<% } %>
+					</p>
+					
+				</div>
+			<% }); %>
+		</div>
+	</section>
+
+</article>
+
